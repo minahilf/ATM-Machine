@@ -21,7 +21,6 @@ if (pinCode.pinC === pin) {
     ]);
     //FAST CASH HOMEWORK
     if (operation.options === "Withdraw") {
-        let withDrawlAmount;
         let withdrawalType = await inquirer.prompt([
             {
                 name: "type",
